@@ -1,0 +1,55 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem 0;
+    height: fit-content;
+    background: #3f4716;
+    background: #9d6357;
+    border-radius: 20px;
+    padding: 30px;
+    min-height: 700px;
+    position: relative;
+}
+
+.about-logo {
+    width: 20rem;
+    float: left;
+    margin-right: 20px;
+}
+
+.about-description {
+    /* display: inline; */
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.about-description p:first-of-type {
+    margin-top: 0;
+}
+
+.about-logo {
+    fill: #fff;
+}
+
+.about-content {
+    color: #fff;
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* height: fit-content; */
+}
+
+/* GALLERY */
+
+.about-photo-gallery {
+    margin-bottom: auto;
+    position: sticky;
+    top: 20px;
+}
+
+.image-gallery-swipe {
+    border-radius: 20px;
+    overflow: hidden;
+}

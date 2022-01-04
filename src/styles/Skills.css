@@ -1,0 +1,87 @@
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #C8A872;
+    border-radius: 20px;
+    overflow: hidden;
+    /* height: 95vh; */
+    min-height: 700px;
+}
+
+.skills-content {
+    padding: 30px;
+}
+
+.skills-photograph {
+    background-image: url('../assets/horizon.jpg');
+    background-size: auto 100%;
+    background-position: top;
+    min-height: 700px;
+}
+
+.skills-logo .cls-1{
+    stroke: #000 !important;
+}
+
+.skills-list {
+    padding: 0;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.skills-list-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    min-width: 130px;
+    background-color: #5e6140;
+    color: #fff;
+    max-width: unset;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 8px;
+    margin-left: 0;
+    margin-top: 0;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.skills-list-item:hover {
+    background-color: #3f4716;
+}
+
+.skills-list-item-link {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.skills-check-icon {
+    margin-right: 10px;
+}
+
+.skills-list-item--pulse {
+    box-shadow: 0 0 0 0 #5e6140;
+    transform: scale(0.95);
+	animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(94, 97, 64, 0.7);
+	}
+	
+	70% {
+		transform: scale(1.05);
+		box-shadow: 0 0 0 10px rgba(94, 97, 64, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(94, 97, 64, 0);
+	}
+}

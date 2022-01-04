@@ -1,0 +1,41 @@
+.hero-background-image {
+    background-image: url(../assets/iceland-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    position: relative;
+    border-radius: 15px;
+    min-height: 700px;
+}
+
+.hero-header {
+    font-weight: normal;
+    margin: 0;
+}
+
+.hero-logo {
+    width: 20rem;
+    fill: #fff;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cls-1 {
+    stroke: #fff !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-background-image {
+        background-size: auto 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .hero-logo {
+        width: 15rem;
+    }
+}
+
