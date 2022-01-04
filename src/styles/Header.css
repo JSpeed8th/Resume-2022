@@ -1,0 +1,36 @@
+ .header-links-wrapper {
+     padding: 0;
+     padding-bottom: 10px;
+     /* position: fixed; */
+     position: absolute;
+     top: 20px;
+     z-index: 100;
+ }
+ 
+ .header-link {
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+    background-color: #9d6357;
+    /* box-shadow: 4px 4px 8px #482e28b8; */
+    background-image: url('../assets/textures/concrete-texture.png');
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .2s;
+ }
+
+ .header-link:hover,
+ .header-link:focus,
+ .header-link:active {
+     background-color: #72483f;
+ }
+ 
+ .header-icon {
+     width: 40px;
+     height: 40px;
+     fill: #fff;
+ }

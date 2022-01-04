@@ -1,3 +1,5 @@
+import '../styles/Header.css'
+
 import { BsFillPersonFill, BsFillHouseDoorFill  } from "react-icons/bs";
 import { GiWeightLiftingUp, GiBrain, GiPencilBrush } from "react-icons/gi";
 
@@ -6,9 +8,9 @@ const Header = () => {
     return (
         <header className='header'>
             <nav className='header-links-wrapper'>
-                <a className='header-link' href='#header'>
+                {/* <a className='header-link' href='#header'>
                     <BsFillHouseDoorFill className='header-icon' />
-                </a>
+                </a> */}
                 <a className='header-link' href='#about'>
                     <BsFillPersonFill className='header-icon' />
                 </a>
