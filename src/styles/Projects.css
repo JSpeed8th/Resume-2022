@@ -1,4 +1,73 @@
-.projects {
+#projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #5E6140;
+    background-image: url('../assets/textures/black-paper.png');
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 700px;
+    margin: 3rem 0;
+
+}
+
+.projects-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.project-logo {
+    fill: #fff;
+}
+
+.projects-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    border-radius: 20px;
+    background: #00000024;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.project-description--start {
+    text-align: center;
+}
+
+.projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+    padding-left: 30px;
+    margin: auto;
+}
+
+.project-list-item {
+    list-style-type: none;
+}
+
+.project-button {
+    height: 200px;
+    width: 250px;
+    border: 0;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.project-button:hover,
+.project-button:focus,
+.project-button:active {
+    transform: scale(.9);
+    border-radius: 10px;
 }

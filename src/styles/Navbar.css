@@ -1,0 +1,83 @@
+.navbar-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    transition: .2s;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.502);
+    text-align: center;
+    /* border-top-left-radius: 20px; */
+    border-radius: 20px;
+}
+
+.navbar-tab {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 70px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.navbar-link  {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.navbar-icon {
+    width: 40px;
+    height: auto;
+    fill: #fff;
+    stroke: #fff;
+    transition: .2s;
+}
+
+.navbar-link:hover .navbar-icon,
+.navbar-link:focus .navbar-icon,
+.navbar-link:active .navbar-icon {
+    fill: #9d6357;
+    stroke: #9d6357;
+}
+
+.navbar-burger-icon {
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-wrapper {
+        display: flex;
+        top: 20px;
+    }
+
+    .navbar-wrapper--hide {
+        right: -80px;
+    }
+
+    .navbar-wrapper--show {
+        right: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+        border-top-left-radius: 0;
+    }
+
+    .navbar-tab {
+        display: flex;
+    }
+    
+    .navbar,
+    .navbar-tab {
+        background: #00000094;
+    }
+}

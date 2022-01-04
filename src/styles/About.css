@@ -1,10 +1,11 @@
-.about {
+#about {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 3rem 0;
     height: fit-content;
-    background: #3f4716;
-    background: #9d6357;
+    /* background: #3f4716; */
+    background-color: #9d6357;
+    background-image: url('../assets/textures/concrete-texture.png');
     border-radius: 20px;
     padding: 30px;
     min-height: 700px;
@@ -22,6 +23,10 @@
     font-size: 24px;
     text-align: justify;
     margin-top: 0;
+}
+
+.about-description a {
+    color: #fff;
 }
 
 .about-description p:first-of-type {
@@ -52,4 +57,10 @@
 .image-gallery-swipe {
     border-radius: 20px;
     overflow: hidden;
+}
+
+.image-gallery-icon:hover,
+.image-gallery-icon:focus,
+.image-gallery-icon:active {
+    color: #9d6357;
 }

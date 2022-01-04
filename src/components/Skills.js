@@ -41,7 +41,7 @@ const skillItems = [
 
 const Skills = () => {
     return (
-        <section className='skills'>
+        <section id='skills'>
             {/* Content */}
             <div className='skills-content'>
                 <SkillsLogo className='skills-logo' />
