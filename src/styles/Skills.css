@@ -16,6 +16,7 @@
 
 .skills-photograph {
     background-image: url('../assets/horizon.jpg');
+    background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: top;
     min-height: 700px;
@@ -86,4 +87,25 @@
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(94, 97, 64, 0);
 	}
+}
+
+@media only screen and (max-width: 800px) {
+    #skills {
+        grid-template-columns: 1fr;
+        grid-template-rows: .3fr 1fr;
+    }
+
+    .skills-content {
+        grid-row: 2/3;
+    }
+
+    .skills-photograph {
+        grid-row: 1/2;
+        min-height: 450px;
+        background-size: cover;
+    }
+
+    .skills-list-item {
+        min-width: unset;
+    }
 }

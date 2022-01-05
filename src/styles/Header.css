@@ -6,6 +6,13 @@
      top: 20px;
      z-index: 100;
  }
+
+ .header-links-list {
+     display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
  
  .header-link {
      display: inline-flex;
@@ -13,7 +20,6 @@
      align-items: center;
     background-color: #9d6357;
     /* box-shadow: 4px 4px 8px #482e28b8; */
-    background-image: url('../assets/textures/concrete-texture.png');
     color: #fff;
     border-radius: 10px;
     margin-right: 10px;
@@ -33,4 +39,43 @@
      width: 40px;
      height: 40px;
      fill: #fff;
+ }
+
+ .pushable {
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: .2s;
+    /* box-shadow: -4px -4px 6px black; */
+  }
+
+  .pushable--clay {
+    background-color: #72483f;
+  }
+
+  .front--clay {
+    background-color: #9d6357;
+    background-image: url('../assets/textures/concrete-texture.png');
+  }
+
+  .pushable:active,
+  .pushable:focus {
+      box-shadow: none;
+  }
+
+  .pushable:hover .front {
+    transform: translate(-3px, -3px);
+  }
+
+  .pushable:active .front,
+  .pushable:focus .front {
+    transform: translateY(-2px);
+  }
+ 
+ @media only screen and (max-width: 800px) {
+    .header-links-wrapper {
+        top: 10px;
+    }
  }

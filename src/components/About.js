@@ -1,6 +1,10 @@
 import '../styles/About.css'
 import {ReactComponent as AboutLogo} from '../assets/about-me.svg'
 import ImageGallery from 'react-image-gallery';
+import icelandCouple from '../assets/carousel/couple-iceland.jpg'
+import horsePortrait from '../assets/carousel/portrait-horse-iceland.jpg'
+import cuddleCats from '../assets/carousel/cuddle-cats.jpg'
+import windowCats from '../assets/carousel/window-cats.jpg'
 
 const aboutMeDescription = (
   <div className='about-description'>
@@ -15,13 +19,16 @@ const aboutMeDescription = (
 
 const images = [
     {
-      original: 'https://picsum.photos/id/1018/1000/600/'
+      original: cuddleCats
     },
     {
-      original: 'https://picsum.photos/id/1015/1000/600/'
+      original: windowCats
     },
     {
-      original: 'https://picsum.photos/id/1019/1000/600/'
+      original: horsePortrait
+    },
+    {
+      original: icelandCouple
     },
   ];
 
@@ -30,7 +37,7 @@ const About = () => {
         <section id='about'>
             {/* Content */}
             <div className='about-content'>
-                {/* <h2>About Me</h2> */}
+                <h2 className='visually-hidden'>About Me</h2>
                 <AboutLogo className='about-logo' />
                   {aboutMeDescription}
             </div>

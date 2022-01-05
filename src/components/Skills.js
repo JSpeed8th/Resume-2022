@@ -45,7 +45,7 @@ const Skills = () => {
             {/* Content */}
             <div className='skills-content'>
                 <SkillsLogo className='skills-logo' />
-                {/* <h2>Skills & Technologies</h2> */}
+                <h2 className='visually-hidden'>Skills & Experience</h2>
                 <ul className='skills-list'>
                     <li className='skills-list-item skills-list-item--pulse'>
                         <a className='skills-list-item-link' target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1evzSDfeZ_IfaaV3j5PyZT2mcfbu7vbIX/view?usp=sharing'>
@@ -54,7 +54,7 @@ const Skills = () => {
                         </a>
                     </li>
                     {skillItems.map((item) => (
-                        <li className='skills-list-item'>
+                        <li className='skills-list-item' role="button">
                             <FaCheck className='skills-check-icon' />
                             {item.name}
                         </li>

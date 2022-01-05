@@ -13,12 +13,12 @@ const Navbar = () => {
     }
     return (
         <nav className={`navbar-wrapper ${showNav ? 'navbar-wrapper--show' : 'navbar-wrapper--hide'}`}>
-            <button className='navbar-tab' onClick={navbarTabEvent}>
+            <button className='navbar-tab' onClick={navbarTabEvent} aria-expanded={showNav} aria-controls="navbar">
                 {
                     showNav ? <FaArrowRight className='navbar-burger-icon' /> : <GiHamburgerMenu className='navbar-burger-icon' />
                 }
             </button>
-            <div className='navbar'>
+            <div id='navbar'>
                 <a className='navbar-link' href='https://github.com/JSpeed8th' target="_blank" rel="noreferrer" ><AiFillGithub className='navbar-icon' /></a>
                 <a className='navbar-link' href='https://www.linkedin.com/in/jordan-speed/' target="_blank" rel="noreferrer" ><AiFillLinkedin className='navbar-icon' /></a>
                 <a className='navbar-link' href='mailto:jspeed8th@gmail.com' target="_blank" rel="noreferrer" ><AiOutlineMail className='navbar-icon' /></a>

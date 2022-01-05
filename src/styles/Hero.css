@@ -10,8 +10,6 @@
 }
 
 .hero-header {
-    font-weight: normal;
-    margin: 0;
 }
 
 .hero-logo {
@@ -21,6 +19,8 @@
     top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: normal;
+    margin: 0;
 }
 
 .cls-1 {
@@ -30,6 +30,7 @@
 @media only screen and (max-width: 800px) {
     .hero-background-image {
         background-size: auto 100%;
+        background-position: 65%;
     }
 }
 

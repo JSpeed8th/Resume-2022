@@ -7,19 +7,33 @@ const Header = () => {
 
     return (
         <header className='header'>
-            <nav className='header-links-wrapper'>
+            <nav className='header-links-wrapper' aria-label='Main Navigation'>
                 {/* <a className='header-link' href='#header'>
                     <BsFillHouseDoorFill className='header-icon' />
                 </a> */}
-                <a className='header-link' href='#about'>
-                    <BsFillPersonFill className='header-icon' />
-                </a>
-                <a className='header-link' href='#skills'>
-                    <GiBrain className='header-icon' />
-                </a>
-                <a className='header-link' href='#projects'>
-                    <GiPencilBrush className='header-icon' />
-                </a>
+                <ul className='header-links-list'>
+                    <li className='header-links-li'>
+                        <a className='header-link pushable pushable--clay' href='#about' aria-label='About Me'>
+                            <span className='front front--clay'>
+                                <BsFillPersonFill className='header-icon' />
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='header-link pushable pushable--clay' href='#skills' aria-label='Skills & Experience'>
+                        <span className='front front--clay'> 
+                            <GiBrain className='header-icon' />
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a className='header-link pushable pushable--clay' href='#projects' aria-label='My Work'>
+                            <span className='front front--clay'>
+                                <GiPencilBrush className='header-icon' />
+                            </span>
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </header>
     )

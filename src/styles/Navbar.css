@@ -6,7 +6,7 @@
     transition: .2s;
 }
 
-.navbar {
+#navbar {
     background: rgb(0 0 0 / 62%);
     text-align: center;
     /* border-top-left-radius: 20px; */
@@ -53,7 +53,7 @@
 @media only screen and (max-width: 600px) {
     .navbar-wrapper {
         display: flex;
-        top: 20px;
+        top: 80px;
     }
 
     .navbar-wrapper--hide {
@@ -64,7 +64,7 @@
         right: 20px;
     }
 
-    .navbar {
+    #navbar {
         display: flex;
         flex-direction: column;
         width: fit-content;
@@ -76,7 +76,7 @@
         display: flex;
     }
     
-    .navbar,
+    #navbar,
     .navbar-tab {
         background: #00000094;
     }
