@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.383381fb.css",
+    "main.js": "/resume/static/js/main.6083c2f3.js",
+    "static/js/787.22a580ec.chunk.js": "/resume/static/js/787.22a580ec.chunk.js",
+    "static/media/empireabrasives-mov.gif": "/resume/static/media/empireabrasives-mov.3ed7c12e50a01abd7dbc.gif",
+    "static/media/smartbrain-mov.gif": "/resume/static/media/smartbrain-mov.1fdd758a472253e9a9ba.gif",
+    "static/media/purepro-mov.gif": "/resume/static/media/purepro-mov.fea0f24b14c1b29eac51.gif",
+    "static/media/dornbos-mov.gif": "/resume/static/media/dornbos-mov.b6c484a1f045aff3b282.gif",
+    "static/media/iceland-1.jpg": "/resume/static/media/iceland-1.ba8f2cb09d522e9e0e10.jpg",
+    "static/media/couple-iceland.jpg": "/resume/static/media/couple-iceland.67b071f247662999e272.jpg",
+    "static/media/horizon.jpg": "/resume/static/media/horizon.a333180f61cf89467146.jpg",
+    "static/media/portrait-horse-iceland.jpg": "/resume/static/media/portrait-horse-iceland.559929a127310d5d1c13.jpg",
+    "static/media/cuddle-cats.jpg": "/resume/static/media/cuddle-cats.a1c1a3e44253f34775a5.jpg",
+    "static/media/black-paper.png": "/resume/static/media/black-paper.a26ab42f2e4469a94619.png",
+    "static/media/window-cats.jpg": "/resume/static/media/window-cats.68f8c7679d5aa003fc95.jpg",
+    "static/media/concrete-texture.png": "/resume/static/media/concrete-texture.0dc0248a94662fa2129c.png",
+    "static/media/brushed-alum.png": "/resume/static/media/brushed-alum.acc9a88b9257dc3ce2da.png",
+    "static/media/hero-name.svg": "/resume/static/media/hero-name.3eed2d039bcd65a7312df62022a9afaf.svg",
+    "static/media/skills.svg": "/resume/static/media/skills.6e58efe0eb142644b7885bab33af6954.svg",
+    "static/media/about-me.svg": "/resume/static/media/about-me.8daece770d79cac573961d6056be0a0f.svg",
+    "static/media/my-work.svg": "/resume/static/media/my-work.9de70ffe8709edf66edf34efbac9530f.svg",
+    "index.html": "/resume/index.html",
+    "main.383381fb.css.map": "/resume/static/css/main.383381fb.css.map",
+    "main.6083c2f3.js.map": "/resume/static/js/main.6083c2f3.js.map",
+    "787.22a580ec.chunk.js.map": "/resume/static/js/787.22a580ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.383381fb.css",
+    "static/js/main.6083c2f3.js"
+  ]
+}
