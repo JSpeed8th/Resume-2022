@@ -44,7 +44,7 @@ const About = () => {
             
             {/* Photograph */}
             <div className='about-photo-gallery'>
-                <ImageGallery items={ images } showFullscreenButton={false} showThumbnails={ false } showBullets={ true } />
+                <ImageGallery items={ images } showFullscreenButton={false} showPlayButton={false} showThumbnails={ false } showBullets={ true } />
             </div>
         </section>
     )

@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { useState } from 'react';
 
 const Navbar = () => {
-    const [showNav, setShowNav] = useState(true)
+    const [showNav, setShowNav] = useState(false)
 
     const navbarTabEvent = (e) => {
         setShowNav(!showNav)
