@@ -37,7 +37,7 @@ const Projects = () => {
         {
             'title': 'PurePro.com Development Diary',
             'subtitle': 'For IntuitSolutions',
-            'description': <p>An article that I wrote for intuitSolutions.com, <a href='https://www.intuitsolutions.net/purepro-com-upgrades-from-bigcommerce-blueprint-to-stencil/' target="_blank" rel="noreferrer">detailing my process for developing Pure Pro's new website </a> to coincide with their brand refresh.  I detail how Pure Pro's brand identify influenced my development.</p>,
+            'description': <p>An article that I wrote for intuitSolutions.com, <a href='https://www.intuitsolutions.net/purepro-com-upgrades-from-bigcommerce-blueprint-to-stencil/' target="_blank" rel="noreferrer">detailing my process for developing Pure Pro's new website </a> to coincide with their brand refresh.  I detail how Pure Pro's brand identity influenced my development.</p>,
             'gif': pureProGif,
             'alt': 'Navigating through PurePro.com'
         },
