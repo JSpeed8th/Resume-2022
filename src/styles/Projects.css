@@ -73,6 +73,7 @@
 .project-title {
     font-size: 18px;
     margin: 5px 0;
+    color: #000;
 }
 
 .project-subtitle {
@@ -138,11 +139,16 @@
 
 @media only screen and (max-width: 530px) {
     .projects-content {
-        height: 360px;
+        height: 260px;
         overflow: scroll;
+        margin-bottom: 40px;
     }
 
     .front--project-white {
         height: fit-content;
+    }
+
+    .project-gift {
+        display: none;
     }
 }
