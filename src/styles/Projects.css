@@ -121,15 +121,28 @@
 @media only screen and (max-width: 800px) {
     #projects {
         grid-template-columns: 1fr;
-        grid-template-rows: 450px 1fr;
+        grid-template-rows: auto 1fr;
         margin-bottom: 0;
     }
 
     .projects-content {
         margin-bottom: 20px;
+        height: 486px;
+        overflow: scroll;
     }
 
     .projects-wrapper {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .projects-content {
+        height: 360px;
+        overflow: scroll;
+    }
+
+    .front--project-white {
+        height: fit-content;
     }
 }

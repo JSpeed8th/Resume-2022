@@ -21,28 +21,30 @@ const Projects = () => {
         {
             'title': 'EmpireAbrasives.com Full Site Development',
             'subtitle': 'For IntuitSolutions',
-            'description': <p>A full site development project for IntuitSolutions by myself. <a href='https://www.empireabrasives.com/'  target="_blank" rel="noreferrer">Empire Abrasives</a> was developed utilizing the BigCommerce CMS "Stencil" platform.</p>,
+            'description': <p>A full site development project for IntuitSolutions by myself. <a href='https://www.empireabrasives.com/'  target="_blank" rel="noreferrer">Empire Abrasives</a> was developed utilizing the BigCommerce CMS "Stencil" platform. </p>,
             'gif': empireGif,
             'alt': 'Navigating through EmpireAbrasives.com'
         },
         {
             'title': 'Smart Brain',
             'subtitle': '',
-            'description': <p>testing things out 2 <a href="https://smart-facial-detect.herokuapp.com/" target="_blank" rel="noreferrer">Smart Brain</a></p>,
+            'description': <p><a href="https://smart-facial-detect.herokuapp.com/" target="_blank" rel="noreferrer">Smart Brain</a> is a dynamic full-stack web application which allows users to challenge our Smart Bot to see if she can detect faces within photos. I developed a single page, mobile responsive, React/ Node.js application in order to provide users a fast and fluid experience. ‘Smart Brain’ fetches the clarifai API in order to obtain facial coordinates which I utilize in order to highlight individuals in each photograph.
+            <a style={{display: 'block'}} href='https://github.com/JSpeed8th/smart-brain' target="_blank" rel="noreferrer">- Repo</a>
+            </p>,
             'gif': smartBrainGif,
             'alt': 'Navigating through Smart Brain'
         },
         {
             'title': 'PurePro.com Development Diary',
             'subtitle': 'For IntuitSolutions',
-            'description': <p>testing things out 3 <a href='https://www.intuitsolutions.net/purepro-com-upgrades-from-bigcommerce-blueprint-to-stencil/' target="_blank" rel="noreferrer">purepro.com</a></p>,
+            'description': <p>An article that I wrote for intuitSolutions.com, <a href='https://www.intuitsolutions.net/purepro-com-upgrades-from-bigcommerce-blueprint-to-stencil/' target="_blank" rel="noreferrer">detailing my process for developing Pure Pro's new website </a> to coincide with their brand refresh.  I detail how Pure Pro's brand identify influenced my development.</p>,
             'gif': pureProGif,
             'alt': 'Navigating through PurePro.com'
         },
         {
             'title': 'DornbosSign.com Custom Street Sign Functionality',
             'subtitle': 'For IntuitSolutions',
-            'description': <p>testing things out 4 <a href='https://www.dornbossign.com/custom-street-name-signs/' target="_blank" rel="noreferrer">dornbossign.com</a></p>,
+            'description': <p>A customized feature for client, DornbosSign.com, which allows users to <a href='https://www.dornbossign.com/custom-street-name-signs/' target="_blank" rel="noreferrer">design their own street signs</a>. This was designed using JavaScript & Jquery.</p>,
             'gif': dornbosGif,
             'alt': 'Navigating through DornbosSign.com'
         }
