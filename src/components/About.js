@@ -19,16 +19,20 @@ const aboutMeDescription = (
 
 const images = [
     {
-      original: cuddleCats
+      original: cuddleCats,
+      originalAlt: "A shorthair tortoiseshell cat and slightly smaller longhair tabby cat, lay on opposite ends of each other."
     },
     {
-      original: windowCats
+      original: windowCats,
+      originalAlt: "A shorthair tortoiseshell cat and slightly smaller longhair tabby cat staring out of a window at birds sitting on a ledge."
     },
     {
-      original: horsePortrait
+      original: horsePortrait,
+      originalAlt: "A smiling man, myself, with arms outstretched while surrounded by horses in a mountainous region."
     },
     {
-      original: icelandCouple
+      original: icelandCouple,
+      originalAlt: "A couple, myself and my wife, smile while a flowing mini waterfall runs behind us."
     },
   ];
 
