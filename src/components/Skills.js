@@ -48,7 +48,7 @@ const Skills = () => {
                 <h2 className='visually-hidden'>Skills & Experience</h2>
                 <ul className='skills-list'>
                     <li className='skills-list-item skills-list-item--pulse'>
-                        <a className='skills-list-item-link' target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1JVjiJSre39aB2IzkUmG2bjiookFz79lv/view?usp=sharing'>
+                        <a className='skills-list-item-link' target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1iuTLkQ_ycqYkmlhOIx5qpnLel_0Vo4fW/view?usp=sharing'>
                             <RiNewspaperFill className='skills-check-icon' />
                             My Resume
                         </a>
