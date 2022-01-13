@@ -1,15 +1,25 @@
+.hero-background-image-wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 95vh;
+    min-height: 700px;
+}
+
+.hero-background-image-video {
+    position: absolute;
+    z-index: -1;
+}
+
 .hero-background-image {
-    background-image: url(../assets/iceland-1.jpg);
+    /* background-image: url(../assets/iceland-1.jpg); */
+    background-image: url(../assets/hero-image-2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 95vh;
-    position: relative;
-    border-radius: 15px;
     min-height: 700px;
-}
-
-.hero-header {
 }
 
 .hero-logo {
@@ -28,6 +38,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .hero-background-image-video {
+        height: 50%;
+        width: auto;
+    }
     .hero-background-image {
         background-size: auto 100%;
         background-position: 65%;
