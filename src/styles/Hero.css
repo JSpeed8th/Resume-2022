@@ -38,11 +38,18 @@
     stroke: #fff !important;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 980px) {
     .hero-background-image-video {
         height: 50%;
         width: auto;
     }
+}
+
+@media only screen and (max-width: 800px) {
+    /* .hero-background-image-video {
+        height: 50%;
+        width: auto;
+    } */
     .hero-background-image {
         background-size: auto 100%;
         background-position: 65%;
