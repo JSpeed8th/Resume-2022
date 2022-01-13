@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.c54f1735.css",
-    "main.js": "/resume/static/js/main.a0bc5f83.js",
+    "main.css": "/resume/static/css/main.8871f3a1.css",
+    "main.js": "/resume/static/js/main.b42e6818.js",
     "static/js/787.22a580ec.chunk.js": "/resume/static/js/787.22a580ec.chunk.js",
     "static/media/empireabrasives-mov.gif": "/resume/static/media/empireabrasives-mov.3ed7c12e50a01abd7dbc.gif",
     "static/media/smartbrain-mov.gif": "/resume/static/media/smartbrain-mov.1fdd758a472253e9a9ba.gif",
     "static/media/purepro-mov.gif": "/resume/static/media/purepro-mov.fea0f24b14c1b29eac51.gif",
     "static/media/dornbos-mov.gif": "/resume/static/media/dornbos-mov.b6c484a1f045aff3b282.gif",
-    "static/media/iceland-1.jpg": "/resume/static/media/iceland-1.ba8f2cb09d522e9e0e10.jpg",
+    "static/media/Formation Of Clouds.mp4": "/resume/static/media/Formation Of Clouds.f283c1d614dcaeb98ced.mp4",
+    "static/media/hero-image-2.png": "/resume/static/media/hero-image-2.9ffa439a237ac21eaec7.png",
     "static/media/couple-iceland.jpg": "/resume/static/media/couple-iceland.67b071f247662999e272.jpg",
     "static/media/horizon.jpg": "/resume/static/media/horizon.a333180f61cf89467146.jpg",
     "static/media/portrait-horse-iceland.jpg": "/resume/static/media/portrait-horse-iceland.559929a127310d5d1c13.jpg",
@@ -21,12 +22,12 @@
     "static/media/about-me.svg": "/resume/static/media/about-me.8daece770d79cac573961d6056be0a0f.svg",
     "static/media/my-work.svg": "/resume/static/media/my-work.9de70ffe8709edf66edf34efbac9530f.svg",
     "index.html": "/resume/index.html",
-    "main.c54f1735.css.map": "/resume/static/css/main.c54f1735.css.map",
-    "main.a0bc5f83.js.map": "/resume/static/js/main.a0bc5f83.js.map",
+    "main.8871f3a1.css.map": "/resume/static/css/main.8871f3a1.css.map",
+    "main.b42e6818.js.map": "/resume/static/js/main.b42e6818.js.map",
     "787.22a580ec.chunk.js.map": "/resume/static/js/787.22a580ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c54f1735.css",
-    "static/js/main.a0bc5f83.js"
+    "static/css/main.8871f3a1.css",
+    "static/js/main.b42e6818.js"
   ]
 }
