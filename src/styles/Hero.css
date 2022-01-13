@@ -10,6 +10,7 @@
 .hero-background-image-video {
     position: absolute;
     z-index: -1;
+    border-radius: 15px;
 }
 
 .hero-background-image {

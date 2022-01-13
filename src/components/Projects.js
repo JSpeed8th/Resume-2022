@@ -23,7 +23,8 @@ const Projects = () => {
             'subtitle': 'For IntuitSolutions',
             'description': <p>A full site development project for IntuitSolutions by myself. <a href='https://www.empireabrasives.com/'  target="_blank" rel="noreferrer">Empire Abrasives</a> was developed utilizing the BigCommerce CMS "Stencil" platform. </p>,
             'gif': empireGif,
-            'alt': 'Navigating through EmpireAbrasives.com'
+            'alt': 'Navigating through EmpireAbrasives.com',
+            "key": 1
         },
         {
             'title': 'Smart Brain',
@@ -32,21 +33,24 @@ const Projects = () => {
             <a style={{display: 'block'}} href='https://github.com/JSpeed8th/smart-brain' target="_blank" rel="noreferrer">- Repo</a>
             </p>,
             'gif': smartBrainGif,
-            'alt': 'Navigating through Smart Brain'
+            'alt': 'Navigating through Smart Brain',
+            "key": 2
         },
         {
             'title': 'PurePro.com Development Diary',
             'subtitle': 'For IntuitSolutions',
             'description': <p>An article that I wrote for intuitSolutions.com, <a href='https://www.intuitsolutions.net/purepro-com-upgrades-from-bigcommerce-blueprint-to-stencil/' target="_blank" rel="noreferrer">detailing my process for developing Pure Pro's new website </a> to coincide with their brand refresh.  I detail how Pure Pro's brand identity influenced my development.</p>,
             'gif': pureProGif,
-            'alt': 'Navigating through PurePro.com'
+            'alt': 'Navigating through PurePro.com',
+            "key": 3
         },
         {
             'title': 'DornbosSign.com Custom Street Sign Functionality',
             'subtitle': 'For IntuitSolutions',
             'description': <p>A customized feature for client, DornbosSign.com, which allows users to <a href='https://www.dornbossign.com/custom-street-name-signs/' target="_blank" rel="noreferrer">design their own street signs</a>. This was designed using JavaScript & Jquery.</p>,
             'gif': dornbosGif,
-            'alt': 'Navigating through DornbosSign.com'
+            'alt': 'Navigating through DornbosSign.com',
+            "key": 4
         }
     ]
 
@@ -75,7 +79,7 @@ const Projects = () => {
                 {
                     projectList.map((project) => {
                         return (
-                        <li className='project-list-item'>
+                        <li className='project-list-item' key={project.key}>
                             <button className='project-button pushable pushable--gray' onClick={() => {
                                 projectClickEvent(project.description, project.gif, project.alt)
                             }}>

@@ -1,16 +1,13 @@
 import '../styles/Header.css'
 
-import { BsFillPersonFill, BsFillHouseDoorFill  } from "react-icons/bs";
-import { GiWeightLiftingUp, GiBrain, GiPencilBrush } from "react-icons/gi";
+import { BsFillPersonFill  } from "react-icons/bs";
+import { GiBrain, GiPencilBrush } from "react-icons/gi";
 
 const Header = () => {
 
     return (
         <header className='header'>
             <nav className='header-links-wrapper' aria-label='Main Navigation'>
-                {/* <a className='header-link' href='#header'>
-                    <BsFillHouseDoorFill className='header-icon' />
-                </a> */}
                 <ul className='header-links-list'>
                     <li className='header-links-li'>
                         <a className='header-link pushable pushable--clay' href='#about' aria-label='About Me'>

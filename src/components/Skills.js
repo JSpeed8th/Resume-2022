@@ -5,37 +5,48 @@ import '../styles/Skills.css';
 
 const skillItems = [
     {
-        'name': 'React.js'
+        'name': 'React.js',
+        "key": 1
     },
     {
-        'name': 'Express.js'
+        'name': 'Express.js',
+        "key": 2
     },
     {
-        'name': 'JavaScript (ES6)'
+        'name': 'JavaScript (ES6)',
+        "key": 3
     },
     {
-        'name': 'JSON'
+        'name': 'JSON',
+        "key": 4
     },
     {
-        'name': 'SCSS'
+        'name': 'SCSS',
+        "key": 5
     },
     {
-        'name': 'Regex'
+        'name': 'Regex',
+        "key": 6
     },
     {
-        'name': 'Figma'
+        'name': 'Figma',
+        "key": 7
     },
     {
-        'name': 'Gitlab & Github'
+        'name': 'Gitlab & Github',
+        "key": 8
     },
     {
-        'name': 'Accessibility (WCAG 2.1)'
+        'name': 'Accessibility (WCAG 2.1)',
+        "key": 9
     },
     {
         'name': 'Project Management',
+        "key": 10
     },
     {
-        'name': 'CMS Technologies (WordPress &BigCommerce)'
+        'name': 'CMS Technologies (WordPress &BigCommerce)',
+        "key": 11
     }
 ]
 
@@ -54,7 +65,7 @@ const Skills = () => {
                         </a>
                     </li>
                     {skillItems.map((item) => (
-                        <li className='skills-list-item' role="button">
+                        <li className='skills-list-item' role="button" key={item.key}>
                             <FaCheck className='skills-check-icon' />
                             {item.name}
                         </li>

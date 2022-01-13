@@ -6,7 +6,7 @@ import skyVideo from '../assets/cloud-videos/Formation Of Clouds.mp4';
 const Hero = () => {
     return (
         <section className='hero-background-image-wrapper' id='hero'>
-            <video className='hero-background-image-video' loop muted autoPlay playsinline width="100%" height="auto">
+            <video className='hero-background-image-video' autoPlay loop muted playsInline width="100%" height="auto">
                 <source src={skyVideo} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
