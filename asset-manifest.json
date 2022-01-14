@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.15e5e264.css",
+    "main.css": "/resume/static/css/main.f5db7701.css",
     "main.js": "/resume/static/js/main.cc2ce9c7.js",
     "static/js/787.22a580ec.chunk.js": "/resume/static/js/787.22a580ec.chunk.js",
     "static/media/empireabrasives-mov.gif": "/resume/static/media/empireabrasives-mov.3ed7c12e50a01abd7dbc.gif",
@@ -22,12 +22,12 @@
     "static/media/about-me.svg": "/resume/static/media/about-me.8daece770d79cac573961d6056be0a0f.svg",
     "static/media/my-work.svg": "/resume/static/media/my-work.9de70ffe8709edf66edf34efbac9530f.svg",
     "index.html": "/resume/index.html",
-    "main.15e5e264.css.map": "/resume/static/css/main.15e5e264.css.map",
+    "main.f5db7701.css.map": "/resume/static/css/main.f5db7701.css.map",
     "main.cc2ce9c7.js.map": "/resume/static/js/main.cc2ce9c7.js.map",
     "787.22a580ec.chunk.js.map": "/resume/static/js/787.22a580ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15e5e264.css",
+    "static/css/main.f5db7701.css",
     "static/js/main.cc2ce9c7.js"
   ]
 }
