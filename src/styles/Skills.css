@@ -93,6 +93,7 @@
     #skills {
         grid-template-columns: 1fr;
         grid-template-rows: .3fr 1fr;
+        margin: 1.5rem 0;
     }
 
     .skills-content {
